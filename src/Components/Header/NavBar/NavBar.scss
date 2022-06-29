@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+    
+    .Logo{
+        margin-right: auto;
+        text-align: left;
+    }
+
+    .NavLink{
+        margin-left: 6rem;
+    }
+
+    svg{
+        margin-left: 0.5rem;
+    }
+}
