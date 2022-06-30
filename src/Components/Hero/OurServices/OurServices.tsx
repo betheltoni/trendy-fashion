@@ -1,9 +1,10 @@
 import React from 'react'
+import "./OurServices.scss"
 import Service from './Service'
 
 const Services = () => {
   return (
-    <>
+    <section className='OurService'>
         <h2>Services</h2>
         <hr />
         <div className='ServicesWrapper'>
@@ -12,7 +13,7 @@ const Services = () => {
             <Service title="GRAPHIC DESIGN" />
             <Service title="GRAPHIC DESIGN" />
         </div>
-    </>
+    </section>
   )
 }
 

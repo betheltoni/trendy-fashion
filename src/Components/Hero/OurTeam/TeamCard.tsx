@@ -9,7 +9,7 @@ type TeamCardType ={
 
 const TeamCard:React.FC<TeamCardType> = ({src,alt}) => {
   return (
-    <div>
+    <div className='TeamCard'>
         <img src={src} alt={alt} />
         <h3>Kerry Lorem</h3>
         <h4>BUSINESS DEVELOPER</h4>

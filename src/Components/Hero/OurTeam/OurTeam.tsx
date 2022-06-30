@@ -1,4 +1,5 @@
 import React from 'react'
+import "./OurTeam.scss"
 import TeamCard from './TeamCard'
 import Team1 from "../../../Images/Team1.jpg"
 import Team2 from "../../../Images/Team2.jpg"
@@ -9,7 +10,7 @@ import Team6 from "../../../Images/Team6.jpg"
 
 const OurTeam = () => {
   return (
-    <>
+    <section className='Team'>
         <h2>Our Team</h2>
         <hr />
         <p>We have an impressive team of professionals and seasoned business experts.</p>
@@ -21,7 +22,7 @@ const OurTeam = () => {
             <TeamCard src={Team5} alt="fifth team member"/>
             <TeamCard src={Team6} alt="sixth team member"/>
         </section>
-    </>
+    </section>
   )
 }
 

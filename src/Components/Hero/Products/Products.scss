@@ -1,0 +1,83 @@
+.OurProducts{
+    background: #E5E5E5;
+    padding: 8rem 5rem;
+    text-align: left;
+    
+    h2{
+        font-size: 5rem;
+        line-height: 6rem;
+        margin-bottom: 2rem;
+        color: #133639;
+    }
+    hr{
+        width: 20%;
+        height: 0;
+        border: 1px solid #000000;
+        border-bottom: 0;
+        border-left: 0;
+        border-right: 0;
+        margin-bottom: 6rem;
+    }
+
+    .ProductsWrapper{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        margin-bottom: 6rem;
+        
+
+        .FirstProduct{
+            background-image: url(../../../Images/Product1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+        }
+        article{
+        
+            width: 80%;
+            padding: 5rem 0 5rem 8rem;
+            
+            h3{
+                font-size: 1.3rem;
+                margin-bottom: 3rem;
+                color: #133639;
+            }
+            p{
+                font-size: 1.2rem;
+                line-height: 2rem;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+
+    .ProductsWrapper2{
+        display: grid;
+        grid-template-columns: 60% 40%; 
+        
+
+        .SecondProduct{
+            background-image: url(../../../Images/Product2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+        }
+
+        article{
+        
+            width: 80%;
+            padding: 5rem 8rem 5rem 0;
+            
+            h3{
+                font-size: 1.3rem;
+                margin-bottom: 3rem;
+                color: #133639;
+            }
+            p{
+                font-size: 1.2rem;
+                line-height: 2rem;
+                margin-bottom: 3rem;
+            }
+        }
+    }
+
+    
+}

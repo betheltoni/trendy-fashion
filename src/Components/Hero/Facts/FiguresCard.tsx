@@ -2,14 +2,15 @@ import React from 'react'
 
 type FiguresType = {
     figure:string,
-    desc:string
+    desc:string,
+    style: React.CSSProperties;
 }
 
-const FiguresCard:React.FC<FiguresType> = ({figure,desc}) => {
+const FiguresCard:React.FC<FiguresType> = ({figure,desc,style}) => {
   return (
-    <div>
-        <p>{figure}</p>
-        <p>{desc}</p>
+    <div className='FiguresCard' style={style}>
+        <p className='Figure'>{figure}</p>
+        <p className='Desc'> {desc}</p>
     </div>
   )
 }
