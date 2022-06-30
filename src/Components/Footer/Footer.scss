@@ -1,0 +1,18 @@
+.Footer{
+    background: #192023;
+    padding: 3rem;
+    color: #FFFFFF;
+    p{
+        font-size: 1.1rem;
+        line-height: 2rem;
+        font-style: italic;
+        span{
+            font-size: 0.8rem;
+            font-style: normal;
+        }
+    }
+
+    svg{
+        margin: 2rem 1.5rem 0 1.5rem;
+    }
+}
