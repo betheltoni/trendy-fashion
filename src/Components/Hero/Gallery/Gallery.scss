@@ -72,5 +72,62 @@
         }
         
       }
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .Gallery{
+    padding: 2rem 0;
+    h2{
+      font-size: 3.5rem;
+      text-align: center;
+      margin: 0 0 1rem 0;
+    }
+
+    hr{
+      width: 30%;
+      margin: 0 auto 2rem auto;
+    }
+
+    .TopRow{
+      
+      .TopRowWrapper{
+        
+    
+        .TopRowItem{
+          .TopRowImage{
+            display: block;
+            width: 18rem;
+            height: 13rem;
+            border-radius: 10px;
+          }
+        }
+        
+      }
+    }
+
+
+    .BottomRow{
+    
+      .BottomRowWrapper{
+        .BottomRowItem{
+          .BottomRowImage{
+          display: block;
+          width: 18rem;
+          height: 13rem;
+          border-radius: 10px;
+          }
+        }
+      
+      }
+    }
+
+
+    svg{
+      width: 25rem;
+      height: 25rem;
+    }
+
   }
 }

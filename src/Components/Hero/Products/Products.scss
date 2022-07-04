@@ -81,3 +81,59 @@
 
     
 }
+
+
+@media screen and (max-width: 1000px) {
+    .OurProducts{
+        padding: 5rem 0rem;
+        text-align: center;
+
+        h2{
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+
+        hr{
+            width: 40%;
+            margin: 0 auto 4rem auto;
+        }
+
+
+        .ProductsWrapper{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 6rem;
+        
+
+        .FirstProduct{
+            width: 21rem;
+            height: 20rem;
+            margin: auto;
+        }
+        article{
+        
+            width: 100%;
+            padding: 2rem 1rem;
+        }
+    }
+
+    .ProductsWrapper2{
+        display: flex;
+        flex-direction: column-reverse; 
+        
+
+        .SecondProduct{
+            width: 21rem;
+            height: 20rem;
+            margin: auto;
+        }
+
+        article{
+        
+            width: 100%;
+            padding: 2rem 1rem;
+            
+        }
+    }
+    }
+}

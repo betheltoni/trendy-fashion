@@ -8,9 +8,9 @@ const Services = () => {
         <h2>Services</h2>
         <hr />
         <div className='ServicesWrapper'>
+            <Service title="WEB DEVELOPMENT" />
             <Service title="WEB DESIGN" />
-            <Service title="WEB DESIGN" />
-            <Service title="GRAPHIC DESIGN" />
+            <Service title="PRESENTATION DESIGN" />
             <Service title="GRAPHIC DESIGN" />
         </div>
     </section>
