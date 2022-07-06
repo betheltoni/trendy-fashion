@@ -21,20 +21,21 @@
 
     .ProductsWrapper{
         display: grid;
-        grid-template-columns: 40% 60%;
+        grid-template-columns: 50% 50%;
         margin-bottom: 6rem;
         
 
         .FirstProduct{
             background-image: url(../../../Images/Product1.jpg);
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
             border-radius: 10px;
+            margin: 3rem;
         }
         article{
         
-            width: 80%;
-            padding: 5rem 0 5rem 8rem;
+            width: 100%;
+            padding: 5rem 0 5rem 2rem;
             
             h3{
                 font-size: 1.3rem;
@@ -51,20 +52,21 @@
 
     .ProductsWrapper2{
         display: grid;
-        grid-template-columns: 60% 40%; 
+        grid-template-columns: 50% 50%; 
         
 
         .SecondProduct{
             background-image: url(../../../Images/Product2.jpg);
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
             border-radius: 10px;
+            margin: 3rem;
         }
 
         article{
         
-            width: 80%;
-            padding: 5rem 8rem 5rem 0;
+            width: 100%;
+            padding: 5rem 2rem 5rem 0;
             
             h3{
                 font-size: 1.3rem;
@@ -85,7 +87,7 @@
 
 @media screen and (max-width: 1000px) {
     .OurProducts{
-        padding: 5rem 0rem;
+        padding: 5rem 1rem;
         text-align: center;
 
         h2{

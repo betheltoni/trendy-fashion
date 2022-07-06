@@ -1,5 +1,9 @@
-
-    // @import url('http://fonts.cdnfonts.com/css/wisteria?styles=126035');            
+@font-face {
+    font-family: "Wisteria Serif";
+    src: local("Wisteria"), 
+    url("./Fonts/Wisteria/Wisteria.woff") format("woff");
+    font-weight: 400;
+}
 
 *{
     margin: 0;
@@ -8,8 +12,8 @@
 }
 
 .App{
-    text-align: center;
-    // font-family: 'Wisteria', sans-serif;    
+    text-align: center;  
     font-style: normal; 
-    color:#265156;                                      
+    color:#265156;
+    font-family: "Wisteria Serif";                                      
 }
