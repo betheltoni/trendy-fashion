@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/trendy-fashion/static/css/main.e0eaaa00.css",
+    "main.js": "/trendy-fashion/static/js/main.ba45557c.js",
+    "static/js/787.4b726eba.chunk.js": "/trendy-fashion/static/js/787.4b726eba.chunk.js",
+    "static/media/AboutUs.jpg": "/trendy-fashion/static/media/AboutUs.8b4367f56c78a6913713.jpg",
+    "static/media/GalleryImage3.jpg": "/trendy-fashion/static/media/GalleryImage3.4d8bcdfe286718ea684b.jpg",
+    "static/media/GalleryImage2.jpg": "/trendy-fashion/static/media/GalleryImage2.eb2ae721ba2a8e6044bf.jpg",
+    "static/media/Product1.jpg": "/trendy-fashion/static/media/Product1.f6b6c115920607cd5ede.jpg",
+    "static/media/GalleryImage1.jpg": "/trendy-fashion/static/media/GalleryImage1.907cf1fd3af45175badb.jpg",
+    "static/media/BackgroundImage.jpg": "/trendy-fashion/static/media/BackgroundImage.2690dd49abeb1dcb03d1.jpg",
+    "static/media/Product2.jpg": "/trendy-fashion/static/media/Product2.d45b039b83159ffb0ca5.jpg",
+    "static/media/GalleryImage.jpg": "/trendy-fashion/static/media/GalleryImage.e8e7b5a6d06756e38457.jpg",
+    "static/media/Team3.jpg": "/trendy-fashion/static/media/Team3.6ad2747cafcee0103286.jpg",
+    "static/media/Team6.jpg": "/trendy-fashion/static/media/Team6.755636cc20586af777b0.jpg",
+    "static/media/Team1.jpg": "/trendy-fashion/static/media/Team1.18720eae875052c25591.jpg",
+    "static/media/Team4.jpg": "/trendy-fashion/static/media/Team4.1b6c0958da1f1e6aa180.jpg",
+    "static/media/Team5.jpg": "/trendy-fashion/static/media/Team5.453411169a47c611485d.jpg",
+    "static/media/Team2.jpg": "/trendy-fashion/static/media/Team2.d817c98584b42c86b9c0.jpg",
+    "static/media/Wisteria.woff": "/trendy-fashion/static/media/Wisteria.323d1659fd90c7700880.woff",
+    "index.html": "/trendy-fashion/index.html",
+    "main.e0eaaa00.css.map": "/trendy-fashion/static/css/main.e0eaaa00.css.map",
+    "main.ba45557c.js.map": "/trendy-fashion/static/js/main.ba45557c.js.map",
+    "787.4b726eba.chunk.js.map": "/trendy-fashion/static/js/787.4b726eba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0eaaa00.css",
+    "static/js/main.ba45557c.js"
+  ]
+}
