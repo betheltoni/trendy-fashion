@@ -1,7 +1,7 @@
 .Review{
     padding: 10rem 10rem;
     h2{
-        font-size: 5rem;
+        font-size: 6.2rem;
         line-height: 6rem;
         margin-bottom: 2rem;
         color: #133639;
@@ -9,19 +9,23 @@
 
     p{
         color: #868AA7;
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         line-height: 2rem;
-        width: 33%;
+        width: 50%;
         margin: 0 auto 4rem auto; 
+    }
+    > svg{
+        margin-left: 1.5rem;
+        cursor: pointer;
     }
 
     .Comments{
         display: flex;
         gap: 5rem;
-        padding: 2rem 0;
+        padding: 5rem 0 2rem 0;
 
         p{
-            font-size: 1rem;
+            font-size: 1.1rem;
             line-height: 2rem;
             color: #171C54;
             width: 50%;

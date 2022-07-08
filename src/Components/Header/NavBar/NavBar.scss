@@ -3,7 +3,7 @@ nav{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 3rem;
+    padding: 1rem 3rem 3rem 3rem;
     font-size: 1.1rem;
     
     .Logo{
@@ -21,6 +21,9 @@ nav{
 
     .MenuBtn{
         display: none;
+    }
+    span{
+        font-size: 1.1rem;
     }
 }
 
@@ -42,6 +45,7 @@ nav{
 
                 ul{
                     list-style: none;
+                    line-height: 2rem;
                 }
 
             }

@@ -1,14 +1,14 @@
 .OurService{
     padding: 3rem 6rem;
     h2{
-        font-size: 5rem;
+        font-size: 6.2rem;
         line-height: 6rem;
         margin-bottom: 2rem;
         color: #133639;
     }
 
     hr{
-        width: 12%;
+        width: 20%;
         height: 0;
         border: 1px solid #000000;
         border-bottom: 0;
@@ -25,16 +25,18 @@
         .Service{
             width: 70%;
             margin: auto;
+            padding-bottom: 2rem;
 
             h3{
-                font-size: 1.6rem;
-                padding: 1.5rem 0;
+                font-size: 2.2rem;
+                padding: 1rem 0;
                 color: #133639;
             }
 
             p{
-                font-size: 1.1rem;
+                font-size: 1.3rem;
                 margin-bottom: 2rem;
+                color: #265156;
             }
         }
     }

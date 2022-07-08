@@ -23,6 +23,9 @@
         margin-bottom: 2rem;
         margin-left: 5.5rem;
     }
+    svg{
+      cursor: pointer;
+    }
 
     .TopRow{
         display: flex;
@@ -32,8 +35,8 @@
         
         .TopRowWrapper{
           display: flex;
-          overflow-y: hidden;
-          
+          overflow-x: hidden;
+          flex-direction: row-reverse;
       
           .TopRowItem{
             padding: 0.5rem;
@@ -58,7 +61,7 @@
       
       .BottomRowWrapper{
         display: flex;
-        overflow-y: hidden;
+        overflow-x: hidden;
         
     
         .BottomRowItem{
@@ -89,6 +92,10 @@
       width: 30%;
       margin: 0 auto 2rem auto;
     }
+    .Control{
+      width: 6rem;
+      height: 6rem;
+    }
 
     .TopRow{
       
@@ -98,8 +105,7 @@
         .TopRowItem{
           .TopRowImage{
             display: block;
-            width: 18rem;
-            height: 13rem;
+            width: 20rem;
             border-radius: 10px;
           }
         }
@@ -113,10 +119,9 @@
       .BottomRowWrapper{
         .BottomRowItem{
           .BottomRowImage{
-          display: block;
-          width: 18rem;
-          height: 13rem;
-          border-radius: 10px;
+            display: block;
+            width: 20rem;
+            border-radius: 10px;
           }
         }
       

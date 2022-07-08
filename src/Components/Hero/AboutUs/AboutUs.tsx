@@ -15,7 +15,6 @@ const AboutUs = () => {
             </p>
        </article>
        <section>
-            {/* <img src={About} alt="AboutUs" /> */}
        </section>
     </section>
   )

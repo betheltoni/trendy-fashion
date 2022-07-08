@@ -1,23 +1,27 @@
-.Header{
+header{
     background-image: url(../../Images/BackgroundImage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 110vh;
     padding: 2rem 5rem;
     color: #FFFFFF;
 
     h1{
-        font-size: 5rem;
+        font-size: 7.8rem;
         line-height: 7rem;
         letter-spacing: 0.2rem;
-        padding: 8rem 0 3rem 0;
+        padding: 8rem 0 5rem 0;
     }
 }
 
 @media screen and (max-width: 1000px) {
-    .Header{
+    header{
         padding: 2rem 2rem;
+        h1{
+            font-size: 4rem;
+        }
     }
+    
     
 
 }
