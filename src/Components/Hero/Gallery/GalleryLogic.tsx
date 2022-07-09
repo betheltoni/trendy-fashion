@@ -56,7 +56,6 @@ const GalleryLogic = () => {
         const lastImage = topArray[topArray.length - 1];
         topArray.pop();
         setTopArray([lastImage, ...topArray]);
-        console.log(topArray)
     };
     
     const scrollRight = () => {
@@ -70,7 +69,6 @@ const GalleryLogic = () => {
             const lastImage = bottomArray[bottomArray.length - 1];
             bottomArray.pop();
             setBottomArray([lastImage, ...bottomArray]);
-            console.log(bottomArray);
         };
     
 
