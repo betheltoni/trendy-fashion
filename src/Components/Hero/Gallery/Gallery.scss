@@ -93,8 +93,8 @@
       margin: 0 auto 2rem auto;
     }
     .Control{
-      width: 6rem;
-      height: 6rem;
+      width: 3rem;
+      height: 3rem;
     }
 
     .TopRow{
@@ -105,7 +105,8 @@
         .TopRowItem{
           .TopRowImage{
             display: block;
-            width: 20rem;
+            width: 10rem;
+            height: 10rem;
             border-radius: 10px;
           }
         }
@@ -120,7 +121,8 @@
         .BottomRowItem{
           .BottomRowImage{
             display: block;
-            width: 20rem;
+            width: 10rem;
+            height: 10rem;
             border-radius: 10px;
           }
         }
@@ -129,10 +131,7 @@
     }
 
 
-    svg{
-      width: 25rem;
-      height: 25rem;
-    }
+    
 
   }
 }
