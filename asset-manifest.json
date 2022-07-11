@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/trendy-fashion/static/css/main.c6b3174c.css",
+    "main.css": "/trendy-fashion/static/css/main.70309106.css",
     "main.js": "/trendy-fashion/static/js/main.1a8f6b34.js",
     "static/js/787.4b726eba.chunk.js": "/trendy-fashion/static/js/787.4b726eba.chunk.js",
     "static/media/AboutUs.jpg": "/trendy-fashion/static/media/AboutUs.8b4367f56c78a6913713.jpg",
@@ -19,12 +19,12 @@
     "static/media/Team2.jpg": "/trendy-fashion/static/media/Team2.d817c98584b42c86b9c0.jpg",
     "static/media/Wisteria.woff": "/trendy-fashion/static/media/Wisteria.323d1659fd90c7700880.woff",
     "index.html": "/trendy-fashion/index.html",
-    "main.c6b3174c.css.map": "/trendy-fashion/static/css/main.c6b3174c.css.map",
+    "main.70309106.css.map": "/trendy-fashion/static/css/main.70309106.css.map",
     "main.1a8f6b34.js.map": "/trendy-fashion/static/js/main.1a8f6b34.js.map",
     "787.4b726eba.chunk.js.map": "/trendy-fashion/static/js/787.4b726eba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6b3174c.css",
+    "static/css/main.70309106.css",
     "static/js/main.1a8f6b34.js"
   ]
 }
